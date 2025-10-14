@@ -5,7 +5,6 @@
 
 
 
-
 .navbar-brand {
   color: #F6F3ED;
 }
@@ -19,7 +18,7 @@ h1, h2, h3 {
 }
 
 #hero {
-  height: 800px;
+  height: 700px;
   background-color: #E4E6DB;
   background-image: url(../images/hero-bg-img.png);
   background-repeat: no-repeat;
@@ -28,7 +27,7 @@ h1, h2, h3 {
 }
 
 #hero .d-flex {
-  height: 800px;
+  height: 700px;
 }
 
 #cta {
