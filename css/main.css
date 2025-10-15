@@ -2,7 +2,12 @@
 
 /* Set custom variables here */
 
-
+:root {
+  --bs-body-bg: #F6F3ED;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+  --light-color:#F6F3ED;
+}
 
 
 .navbar-brand {
@@ -35,11 +40,31 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  
+}
+
+button{
+  background-color: #2e483a;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  height: auto;
+  width: auto;
+}
+
+#quotes img{
+  border-radius: 100%;
 }
 
 #cta .d-flex {
   height: 400px;
 }
+
+#cta button{
+  width: 600px;
+  height: 50px;
+}
+
 
 section:not(#hero):not(#cta){
   padding: 60px 0;
